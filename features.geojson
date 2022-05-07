@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { 
+          "name": "Padma", 
+          "link": "https://www.google.com/maps/place/Padma+Resort+Ubud/data=!4m2!3m1!1s0x2dd221e79f9f18eb:0x6ce6688c8113c9b4", 
+          "popupContent": "Padma Resort Ubud" ,
+          "category": "Paysage"
+        },
+      "geometry": { "type": "Point", "coordinates": [115.2723517, -8.3834684] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Amed Beach",
+        "link": "https://www.google.com/maps/place/Amed+Beach/data=!4m2!3m1!1s0x2dd2007d2b57f8e1:0x9178b79de46df737",
+        "popupContent": "Low-key beach known for black volcanic sand, picturesque views & nearby restaurants & cafes.",
+        "category": "Paysage"
+      },
+      "geometry": { "type": "Point", "coordinates": [115.6422827, -8.335439] }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+          "name": "Over the Moon Bali",
+          "link": "https://www.google.com/maps/place/Amed+Beach/data=!4m2!3m1!1s0x2dd2007d2b57f8e1:0x9178b79de46df737",
+          "popupContent": "Low-key beach known for black volcanic sand, picturesque views & nearby restaurants & cafes.",
+          "category": "Paysage"
+        },
+        "geometry": { "type": "Point", "coordinates": [115.6422827, -8.335439] }
+      }    
+  ]
+}
