@@ -1,0 +1,171 @@
+{
+	"Villes":{
+		"color" : "black",
+		"places": [
+			{"name":"Kuta"			,"search":"Bali Kuta"},
+			{"name":"Seminyak"		,"search":"Bali Seminyak"},
+			{"name":"Canggu"		,"search":"Bali Canggu"},
+			{"name":"Sanur"			,"search":"Bali Sanur Batu Jimbar Café"},
+			{"name":"Jimbaran"		,"search":"Bali Jimbaran"},
+			{"name":"Uluwatu"		,"search":"Bali Uluwatu"},
+			{"name":"Tanjung Benoa"	,"search":"Bali Tanjung Benoa Watersports"},
+			{"name":"Ubud"			,"search":"Bali Ubud"}
+		]
+	},
+	"Temple":{
+		"color" : "orange",
+		"places": [
+			{"name":"Gunung Kawi"	,"search":"Bali Gunung Kawi"},
+			{"name":"Terta Empul"	,"search":"Bali Terta Empul"},
+			{"name":"Besakih"		,"search":"Bali Besakih"},
+			{"name":"Danau Bratan"	,"search":"Bali Danau Bratan"},
+			{"name":"Tanah Lot"		,"search":"Bali Tanah Lot"},
+			{"name":"Uluwatu"		,"search":"Bali Uluwatu"}
+		]
+	},
+	"Brunch/Lunch":{
+		"color" : "#5DADE2",
+		"places": [
+			{"name":"Milu by Nook"	,"search":"Bali Milu by Nook"},
+			{"name":"La Cantine"	,"search":"Bali La Cantine"},
+			{"name":"Andaz"			,"search":"Bali Andaz"},
+			{"name":"Tony Raka"		,"search":"Bali Tony Raka"},
+			{"name":"Rusters"		,"search":"Bali Rusters"},
+			{"name":"Green Mood"	,"search":"Bali Green Mood"},
+			{"name":"Unique Rooftop","search":"Bali Unique Rooftop"},
+			{"name":"Pistacio Ubud"	,"search":"Bali Pistacio Ubud"},
+			{"name":"La Brasserie"	,"search":"Bali La Brasserie"},
+			{"name":"Suka"			,"search":"Bali Suka"},
+			{"name":"Farabelle"		,"search":"Bali Farabelle"},
+			{"name":"Fren'cha"		,"search":"Bali Fren'cha"},
+			{"name":"Mr Spoon"		,"search":"Bali Mr Spoon"},
+			{"name":"Lila Pantai"	,"search":"Bali Lila Pantai"},
+			{"name":"Lotus Café"	,"search":"Bali Lotus Café"},
+			{"name":"Bon Appétit"	,"search":"Bali Bon Appétit"},
+			{"name":"Pier Eight"	,"search":"Bali Pier Eight"}
+		]
+	},
+	"Diner":{
+		"color" : "#1A5276",
+		"places": [
+			{"name":"Sushi Tei"					,"search":"Bali Restaurant Sushi Tei"},
+			{"name":"Pescado"					,"search":"Pescado Bali Sanur"},
+			{"name":"Barbarossa"				,"search":"Bali Restaurant Barbarossa"},
+			{"name":"Aqua"						,"search":"Bali Restaurant Aqua"},
+			{"name":"Gourmet Garage"			,"search":"Bali Restaurant Gourmet Garage"},
+			{"name":"The Butcher Steak house"	,"search":"Bali Restaurant The Butcher Steak house"},
+			{"name":"Paris'i"					,"search":"Bali Restaurant Paris'i"},
+			{"name":"Bumbu Bali"				,"search":"Bali Restaurant Bumbu Bali"},
+			{"name":"Taman Bebek"				,"search":"Bali Restaurant Taman Bebek"},
+			{"name":"Massimo"					,"search":"Bali Restaurant Massimo"},
+			{"name":"Friend Sip"				,"search":"Bali Restaurant Friend Sip"}
+		]
+	},
+	"Chic":{
+		"color" : "#F4ABC4",
+		"places": [
+			{"name":"Apéritif"		,"search":"Restaurant Bali Apéritif"},
+			{"name":"Sundara"		,"search":"Sundara Restaurant Bali"},
+			{"name":"Koral Aquarium","search":"Restaurant Bali Koral Aquarium"},
+			{"name":"Locavore"		,"search":"Restaurant Bali Locavore"}
+		]
+	},
+	"Shopping":{
+		"color" : "#F4ABC4",
+		"places": [
+			{"name":"Beach walk"		  ,"search":"Bali Beach walk"},
+			{"name":"Discovery mall"	  ,"search":"Bali Discovery mall"},
+			{"name":"Galleria"			  ,"search":"Bali Galleria"},
+			{"name":"Seminyak square"	  ,"search":"Bali Seminyak square"},
+			{"name":"Monkey Forest street","search":"Bali Monkey Forest street"},
+			{"name":"Pondok Padi Design"  ,"search":"Bali Pondok Padi Design"},
+			{"name":"chocolat Monnier"	  ,"search":"Bali chocolat Monnier"},
+			{"name":"Adriana chocolate"	  ,"search":"Bali Adriana chocolate"},
+			{"name":"Jalan Kayu Ayu"	  ,"search":"Bali Jalan Kayu Ayu"},
+			{"name":"Jalan Legian"		  ,"search":"Bali Jalan Legian"},
+			{"name":"Jalan Petitenget"	  ,"search":"Bali Jalan Petitenget"},
+			{"name":"Jalan Tamblingan"	  ,"search":"Bali Jalan Tamblingan"},
+			{"name":"Jenggala Ceramique"  ,"search":"Bali Jenggala Ceramique"},
+			{"name":"Kaval"				  ,"search":"Bali Kaval"},
+			{"name":"Pasar Seni"		  ,"search":"Bali Pasar Seni"},
+			{"name":"Sukawati Art market" ,"search":"Bali Sukawati Art market"}
+		]
+	},
+	"Coiffeur/Massage":{
+		"color" : "#FFD124",
+		"places": [
+			{"name":"l'Atelier","search":"Bali l'Atelier Salon"},
+			{"name":"Cosmo","search":"Bali Cosmo Salon & Spa"},
+			{"name":"Glo","search":"Bali Glo Day Spa & Salon Sanur"},
+			{"name":"the Nest","search":"Bali The Nest Boutique Spa"}
+		]
+	},
+	"Plage":{
+		"color" : "#005555",
+		"places": [
+			{"name":"Melasti","search":"Bali Melasti beach"},
+			{"name":"Green Bowl","search":"Bali Green Bowl beach"},
+			{"name":"Binggi","search":"Bali Binggi beach"},
+			{"name":"Pantai Pasir Putih","search":"Bali Pantai Pasir Putih"},
+			{"name":"Berawa","search":"Bali Berawa beach"}
+		]
+	},
+	"Curiosité":{
+		"color" : "#0E6655",
+		"places": [
+			{"name":"Sediman valley","search":"Bali Sediman valley"},
+			{"name":"Lac Kintamani","search":"Bali Lake Kintamani"},
+			{"name":"Munduk","search":"Bali Munduk"},
+			{"name":"Mont Agung","search":"Bali Mont Agung"},
+			{"name":"Mont Batur","search":"Bali Mont Batur"},
+			{"name":"Jatiwulih rizières","search":"Jatiluwih Rice Terrace"},
+			{"name":"Menjangan Island","search":"Menjangan Island"},
+			{"name":"Danse kecak","search":"Danse kecak Ubud"},
+			{"name":"Gili Islands","search":"Gili Islands"},
+			{"name":"Komodo","search":"Pulau Komodo"}
+		]
+	},
+	"Hotel":{
+		"color" : "#F1C40F",
+		"places": [
+			{"name":"4 seasons Jimbaran","search":"four seasons Jimbaran"},
+			{"name":"4 seasons Ubud","search":"four seasons Ubud"},
+			{"name":"Padma Ubud","search":"Padma Ubud"},
+			{"name":"Kempinski","search":"Bali Kempinski"},
+			{"name":"Conrad","search":"CBali onrad"},
+			{"name":"Grand Hyatt","search":"Bali Grand Hyatt"},
+			{"name":"Belmond","search":"Bali Belmond"},
+			{"name":"St Régis","search":"Bali St Régis"},
+			{"name":"Soori Bali","search":"Bali Soori Bali"},
+			{"name":"Menjangan Retreat & Spa","search":"Bali Menjangan Retreat & Spa"},
+			{"name":"Kelapa Retreat & Spa","search":"Bali Kelapa Retreat & Spa"},
+			{"name":"Villa Kaniksa","search":"Bali Villa Kaniksa"},
+			{"name":"Bali Droom Villa","search":"Bali Droom Villa"}
+		]
+	},
+	"Beach Club/Bar":{
+		"color" : "#8E44AD",
+		"places": [
+			{"name":"Karma Beach Club","search":"Bali Karma Beach Club"},
+			{"name":"La Brisa","search":"Bali La Brisa"},
+			{"name":"Blue Sapphire","search":"Bali Blue Sapphire"},
+			{"name":"Delta KTV","search":"Bali Delta KTV"},
+			{"name":"the Rock Bar","search":"Bali the Rock Bar"},
+			{"name":"CP lounge","search":"Bali CP lounge"},
+			{"name":"Q Bar","search":"Bali Q Bar"},
+			{"name":"the Beach House","search":"Bali the Beach House"}
+		]
+	},
+	"Discothèque (22h)":{
+		"color" : "gray",
+		"places": [
+			{"name":"Bounty","search":"Bounty Discotheque"},
+			{"name":"Engine Room","search":"Engine Room Discotheque"},
+			{"name":"LXXY Bali","search":"LXXY Bali"},
+			{"name":"New Star","search":"New Star"},
+			{"name":"4th Floor","search":"Bali 4th Floor"},
+			{"name":"The Velvet","search":"Bali The Velvet"},
+			{"name":"ShiShi Night Club","search":"Bali ShiShi Night Club"}
+		]
+	}
+}

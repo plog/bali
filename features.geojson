@@ -3,33 +3,1309 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { 
-          "name": "Padma", 
-          "link": "https://www.google.com/maps/place/Padma+Resort+Ubud/data=!4m2!3m1!1s0x2dd221e79f9f18eb:0x6ce6688c8113c9b4", 
-          "popupContent": "Padma Resort Ubud" ,
-          "category": "Paysage"
-        },
-      "geometry": { "type": "Point", "coordinates": [115.2723517, -8.3834684] }
+      "geometry": { "type": "Point", "coordinates": [115.17671, -8.722396] },
+      "properties": {
+        "name": "Kuta",
+        "link": "https://maps.google.com/?q=Kuta,+Badung+Regency,+Bali,+Indonesia&ftid=0x2dd246a486d6fbd3:0x84839839faa3e26d",
+        "category": "Villes",
+        "popupContent": "Kuta",
+        "color": "black"
+      }
     },
     {
       "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.168165, -8.691289] },
       "properties": {
-        "name": "Amed Beach",
-        "link": "https://www.google.com/maps/place/Amed+Beach/data=!4m2!3m1!1s0x2dd2007d2b57f8e1:0x9178b79de46df737",
-        "popupContent": "Low-key beach known for black volcanic sand, picturesque views & nearby restaurants & cafes.",
-        "category": "Paysage"
-      },
-      "geometry": { "type": "Point", "coordinates": [115.6422827, -8.335439] }
+        "name": "Seminyak",
+        "link": "https://maps.google.com/?q=Seminyak,+Kuta,+Badung+Regency,+Bali,+Indonesia&ftid=0x2dd246dfe07cc8ff:0x5030bfbca82fdd0",
+        "category": "Villes",
+        "popupContent": "Seminyak",
+        "color": "black"
+      }
     },
     {
-        "type": "Feature",
-        "properties": {
-          "name": "Over the Moon Bali",
-          "link": "https://www.google.com/maps/place/Amed+Beach/data=!4m2!3m1!1s0x2dd2007d2b57f8e1:0x9178b79de46df737",
-          "popupContent": "Low-key beach known for black volcanic sand, picturesque views & nearby restaurants & cafes.",
-          "category": "Paysage"
-        },
-        "geometry": { "type": "Point", "coordinates": [115.6422827, -8.335439] }
-      }    
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.138519, -8.647818] },
+      "properties": {
+        "name": "Canggu",
+        "link": "https://maps.google.com/?q=Canggu,+Kuta+Utara,+Badung+Regency,+Bali,+Indonesia&ftid=0x2dd23861f4589665:0x5030bfbca82fd30",
+        "category": "Villes",
+        "popupContent": "Canggu",
+        "color": "black"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.263775, -8.695544] },
+      "properties": { "name": "Sanur", "link": "https://maps.google.com/?cid=2614456175973313369", "category": "Villes", "popupContent": "Sanur", "color": "black" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.159272, -8.790694] },
+      "properties": {
+        "name": "Jimbaran",
+        "link": "https://maps.google.com/?q=Jimbaran,+South+Kuta,+Badung+Regency,+Bali,+Indonesia&ftid=0x2dd24461fad25023:0x111cd5f0bda645dc",
+        "category": "Villes",
+        "popupContent": "Jimbaran",
+        "color": "black"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.214389, -8.75868] },
+      "properties": {
+        "name": "Tanjung Benoa",
+        "link": "https://maps.google.com/?q=Tanjung+Benoa,+South+Kuta,+Badung+Regency,+Bali,+Indonesia&ftid=0x2dd243bda5edd505:0x5aa7f8daba33bb29",
+        "category": "Villes",
+        "popupContent": "Tanjung Benoa",
+        "color": "black"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.262478, -8.506854] },
+      "properties": {
+        "name": "Ubud",
+        "link": "https://maps.google.com/?q=Ubud,+Gianyar+Regency,+Bali,+Indonesia&ftid=0x2dd23d739f22c9c3:0x54a38afd6b773d1c",
+        "category": "Villes",
+        "popupContent": "Ubud",
+        "color": "black"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.17671, -8.722396] },
+      "properties": {
+        "name": "Kuta",
+        "link": "https://maps.google.com/?q=Kuta,+Badung+Regency,+Bali,+Indonesia&ftid=0x2dd246a486d6fbd3:0x84839839faa3e26d",
+        "category": "Villes",
+        "popupContent": "Kuta",
+        "color": "black"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.168165, -8.691289] },
+      "properties": {
+        "name": "Seminyak",
+        "link": "https://maps.google.com/?q=Seminyak,+Kuta,+Badung+Regency,+Bali,+Indonesia&ftid=0x2dd246dfe07cc8ff:0x5030bfbca82fdd0",
+        "category": "Villes",
+        "popupContent": "Seminyak",
+        "color": "black"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.138519, -8.647818] },
+      "properties": {
+        "name": "Canggu",
+        "link": "https://maps.google.com/?q=Canggu,+Kuta+Utara,+Badung+Regency,+Bali,+Indonesia&ftid=0x2dd23861f4589665:0x5030bfbca82fd30",
+        "category": "Villes",
+        "popupContent": "Canggu",
+        "color": "black"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.263775, -8.695544] },
+      "properties": { "name": "Sanur", "link": "https://maps.google.com/?cid=2614456175973313369", "category": "Villes", "popupContent": "Sanur", "color": "black" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.159272, -8.790694] },
+      "properties": {
+        "name": "Jimbaran",
+        "link": "https://maps.google.com/?q=Jimbaran,+South+Kuta,+Badung+Regency,+Bali,+Indonesia&ftid=0x2dd24461fad25023:0x111cd5f0bda645dc",
+        "category": "Villes",
+        "popupContent": "Jimbaran",
+        "color": "black"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.214389, -8.75868] },
+      "properties": {
+        "name": "Tanjung Benoa",
+        "link": "https://maps.google.com/?q=Tanjung+Benoa,+South+Kuta,+Badung+Regency,+Bali,+Indonesia&ftid=0x2dd243bda5edd505:0x5aa7f8daba33bb29",
+        "category": "Villes",
+        "popupContent": "Tanjung Benoa",
+        "color": "black"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.262478, -8.506854] },
+      "properties": {
+        "name": "Ubud",
+        "link": "https://maps.google.com/?q=Ubud,+Gianyar+Regency,+Bali,+Indonesia&ftid=0x2dd23d739f22c9c3:0x54a38afd6b773d1c",
+        "category": "Villes",
+        "popupContent": "Ubud",
+        "color": "black"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.312323, -8.423066] },
+      "properties": { "name": "Gunung Kawi", "link": "https://maps.google.com/?cid=5227457935548571705", "category": "Temple", "popupContent": "Gunung Kawi", "color": "orange" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.315159, -8.415759] },
+      "properties": { "name": "Terta Empul", "link": "https://maps.google.com/?cid=6026478213714472129", "category": "Temple", "popupContent": "Terta Empul", "color": "orange" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.451061, -8.374906] },
+      "properties": {
+        "name": "Besakih",
+        "link": "https://maps.google.com/?q=Besakih,+Rendang,+Karangasem+Regency,+Bali,+Indonesia&ftid=0x2dd21cdbadf6b35b:0x5030bfbca8315f0",
+        "category": "Temple",
+        "popupContent": "Besakih",
+        "color": "orange"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.174094, -8.27204] },
+      "properties": {
+        "name": "Danau Bratan",
+        "link": "https://maps.google.com/?q=Danau+Beratan&ftid=0x2dd18968c2459d53:0xbe028c1761c867ac",
+        "category": "Temple",
+        "popupContent": "Danau Bratan",
+        "color": "orange"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.086807, -8.621213] },
+      "properties": { "name": "Tanah Lot", "link": "https://maps.google.com/?cid=14604015191502048617", "category": "Temple", "popupContent": "Tanah Lot", "color": "orange" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.312323, -8.423066] },
+      "properties": { "name": "Gunung Kawi", "link": "https://maps.google.com/?cid=5227457935548571705", "category": "Temple", "popupContent": "Gunung Kawi", "color": "orange" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.315159, -8.415759] },
+      "properties": { "name": "Terta Empul", "link": "https://maps.google.com/?cid=6026478213714472129", "category": "Temple", "popupContent": "Terta Empul", "color": "orange" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.451061, -8.374906] },
+      "properties": {
+        "name": "Besakih",
+        "link": "https://maps.google.com/?q=Besakih,+Rendang,+Karangasem+Regency,+Bali,+Indonesia&ftid=0x2dd21cdbadf6b35b:0x5030bfbca8315f0",
+        "category": "Temple",
+        "popupContent": "Besakih",
+        "color": "orange"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.174094, -8.27204] },
+      "properties": {
+        "name": "Danau Bratan",
+        "link": "https://maps.google.com/?q=Danau+Beratan&ftid=0x2dd18968c2459d53:0xbe028c1761c867ac",
+        "category": "Temple",
+        "popupContent": "Danau Bratan",
+        "color": "orange"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.086807, -8.621213] },
+      "properties": { "name": "Tanah Lot", "link": "https://maps.google.com/?cid=14604015191502048617", "category": "Temple", "popupContent": "Tanah Lot", "color": "orange" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.144084, -8.660587] },
+      "properties": { "name": "Milu by Nook", "link": "https://maps.google.com/?cid=5296077442511779304", "category": "Brunch/Lunch", "popupContent": "Milu by Nook", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.256647, -8.523097] },
+      "properties": { "name": "La Cantine", "link": "https://maps.google.com/?cid=11010395764321652422", "category": "Brunch/Lunch", "popupContent": "La Cantine", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.26361, -8.699537] },
+      "properties": { "name": "Andaz", "link": "https://maps.google.com/?cid=1367464192614288554", "category": "Brunch/Lunch", "popupContent": "Andaz", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.272248, -8.54744] },
+      "properties": { "name": "Tony Raka", "link": "https://maps.google.com/?cid=16589488398517639462", "category": "Brunch/Lunch", "popupContent": "Tony Raka", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.243576, -8.536627] },
+      "properties": { "name": "Rusters", "link": "https://maps.google.com/?cid=13863107092928861081", "category": "Brunch/Lunch", "popupContent": "Rusters", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.252298, -8.699035] },
+      "properties": { "name": "Green Mood", "link": "https://maps.google.com/?cid=58472979969622131", "category": "Brunch/Lunch", "popupContent": "Green Mood", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.139507, -8.794043] },
+      "properties": { "name": "Unique Rooftop", "link": "https://maps.google.com/?cid=8345777241436855989", "category": "Brunch/Lunch", "popupContent": "Unique Rooftop", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.25812, -8.513778] },
+      "properties": { "name": "Pistacio Ubud", "link": "https://maps.google.com/?cid=14005651565270465962", "category": "Brunch/Lunch", "popupContent": "Pistacio Ubud", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.16565, -8.782125] },
+      "properties": { "name": "La Brasserie", "link": "https://maps.google.com/?cid=5049132397477353715", "category": "Brunch/Lunch", "popupContent": "La Brasserie", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [132.256912, -14.471325] },
+      "properties": { "name": "Suka", "link": "https://maps.google.com/?cid=266233649698683600", "category": "Brunch/Lunch", "popupContent": "Suka", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [112.512958, -7.871704] },
+      "properties": { "name": "Farabelle", "link": "https://maps.google.com/?cid=7366229697191959281", "category": "Brunch/Lunch", "popupContent": "Farabelle", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.141119, -8.825235] },
+      "properties": { "name": "Fren'cha", "link": "https://maps.google.com/?cid=16975124441905318167", "category": "Brunch/Lunch", "popupContent": "Fren'cha", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.161922, -8.671528] },
+      "properties": { "name": "Mr Spoon", "link": "https://maps.google.com/?cid=10385233674397223709", "category": "Brunch/Lunch", "popupContent": "Mr Spoon", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.264004, -8.704886] },
+      "properties": { "name": "Lila Pantai", "link": "https://maps.google.com/?cid=16594207664104491612", "category": "Brunch/Lunch", "popupContent": "Lila Pantai", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-71.315512, 46.772795] },
+      "properties": { "name": "Lotus Caf\u00e9", "link": "https://maps.google.com/?cid=8174643383599005674", "category": "Brunch/Lunch", "popupContent": "Lotus Caf\u00e9", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.261059, -8.703212] },
+      "properties": { "name": "Bon App\u00e9tit", "link": "https://maps.google.com/?cid=10307298319230553957", "category": "Brunch/Lunch", "popupContent": "Bon App\u00e9tit", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.263537, -8.705744] },
+      "properties": { "name": "Pier Eight", "link": "https://maps.google.com/?cid=2509553842357781849", "category": "Brunch/Lunch", "popupContent": "Pier Eight", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.144084, -8.660587] },
+      "properties": { "name": "Milu by Nook", "link": "https://maps.google.com/?cid=5296077442511779304", "category": "Brunch/Lunch", "popupContent": "Milu by Nook", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.256647, -8.523097] },
+      "properties": { "name": "La Cantine", "link": "https://maps.google.com/?cid=11010395764321652422", "category": "Brunch/Lunch", "popupContent": "La Cantine", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.26361, -8.699537] },
+      "properties": { "name": "Andaz", "link": "https://maps.google.com/?cid=1367464192614288554", "category": "Brunch/Lunch", "popupContent": "Andaz", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.272248, -8.54744] },
+      "properties": { "name": "Tony Raka", "link": "https://maps.google.com/?cid=16589488398517639462", "category": "Brunch/Lunch", "popupContent": "Tony Raka", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.243576, -8.536627] },
+      "properties": { "name": "Rusters", "link": "https://maps.google.com/?cid=13863107092928861081", "category": "Brunch/Lunch", "popupContent": "Rusters", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.252298, -8.699035] },
+      "properties": { "name": "Green Mood", "link": "https://maps.google.com/?cid=58472979969622131", "category": "Brunch/Lunch", "popupContent": "Green Mood", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.139507, -8.794043] },
+      "properties": { "name": "Unique Rooftop", "link": "https://maps.google.com/?cid=8345777241436855989", "category": "Brunch/Lunch", "popupContent": "Unique Rooftop", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.25812, -8.513778] },
+      "properties": { "name": "Pistacio Ubud", "link": "https://maps.google.com/?cid=14005651565270465962", "category": "Brunch/Lunch", "popupContent": "Pistacio Ubud", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.16565, -8.782125] },
+      "properties": { "name": "La Brasserie", "link": "https://maps.google.com/?cid=5049132397477353715", "category": "Brunch/Lunch", "popupContent": "La Brasserie", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [132.256912, -14.471325] },
+      "properties": { "name": "Suka", "link": "https://maps.google.com/?cid=266233649698683600", "category": "Brunch/Lunch", "popupContent": "Suka", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [112.512958, -7.871704] },
+      "properties": { "name": "Farabelle", "link": "https://maps.google.com/?cid=7366229697191959281", "category": "Brunch/Lunch", "popupContent": "Farabelle", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.141119, -8.825235] },
+      "properties": { "name": "Fren'cha", "link": "https://maps.google.com/?cid=16975124441905318167", "category": "Brunch/Lunch", "popupContent": "Fren'cha", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.161922, -8.671528] },
+      "properties": { "name": "Mr Spoon", "link": "https://maps.google.com/?cid=10385233674397223709", "category": "Brunch/Lunch", "popupContent": "Mr Spoon", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.264004, -8.704886] },
+      "properties": { "name": "Lila Pantai", "link": "https://maps.google.com/?cid=16594207664104491612", "category": "Brunch/Lunch", "popupContent": "Lila Pantai", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-71.315512, 46.772795] },
+      "properties": { "name": "Lotus Caf\u00e9", "link": "https://maps.google.com/?cid=8174643383599005674", "category": "Brunch/Lunch", "popupContent": "Lotus Caf\u00e9", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.261059, -8.703212] },
+      "properties": { "name": "Bon App\u00e9tit", "link": "https://maps.google.com/?cid=10307298319230553957", "category": "Brunch/Lunch", "popupContent": "Bon App\u00e9tit", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.263537, -8.705744] },
+      "properties": { "name": "Pier Eight", "link": "https://maps.google.com/?cid=2509553842357781849", "category": "Brunch/Lunch", "popupContent": "Pier Eight", "color": "#5DADE2" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.16892, -8.716738] },
+      "properties": { "name": "Sushi Tei", "link": "https://maps.google.com/?cid=16223341617512536837", "category": "Diner", "popupContent": "Sushi Tei", "color": "#1A5276" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.262204, -8.703074] },
+      "properties": { "name": "Pescado", "link": "https://maps.google.com/?cid=15125627680243295935", "category": "Diner", "popupContent": "Pescado", "color": "#1A5276" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.247601, -8.704529] },
+      "properties": { "name": "Barbarossa", "link": "https://maps.google.com/?cid=5934244851705196582", "category": "Diner", "popupContent": "Barbarossa", "color": "#1A5276" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.164726, -8.66993] },
+      "properties": { "name": "Aqua", "link": "https://maps.google.com/?cid=3762019857538421904", "category": "Diner", "popupContent": "Aqua", "color": "#1A5276" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.177824, -8.768744] },
+      "properties": { "name": "Gourmet Garage", "link": "https://maps.google.com/?cid=13389443199975577900", "category": "Diner", "popupContent": "Gourmet Garage", "color": "#1A5276" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.156771, -8.674088] },
+      "properties": {
+        "name": "The Butcher Steak house",
+        "link": "https://maps.google.com/?cid=10476243733377599058",
+        "category": "Diner",
+        "popupContent": "The Butcher Steak house",
+        "color": "#1A5276"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.253, -8.693832] },
+      "properties": { "name": "Paris'i", "link": "https://maps.google.com/?cid=12459049168709780673", "category": "Diner", "popupContent": "Paris'i", "color": "#1A5276" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [101.615458, 3.023139] },
+      "properties": { "name": "Bumbu Bali", "link": "https://maps.google.com/?cid=7879672986031507342", "category": "Diner", "popupContent": "Bumbu Bali", "color": "#1A5276" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.670833, -8.345] },
+      "properties": { "name": "Taman Bebek", "link": "https://maps.google.com/?cid=3248346681965095782", "category": "Diner", "popupContent": "Taman Bebek", "color": "#1A5276" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.26069, -8.704743] },
+      "properties": { "name": "Massimo", "link": "https://maps.google.com/?cid=7866022212850565545", "category": "Diner", "popupContent": "Massimo", "color": "#1A5276" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.260965, -8.703172] },
+      "properties": { "name": "Friend Sip", "link": "https://maps.google.com/?cid=17037152844322788166", "category": "Diner", "popupContent": "Friend Sip", "color": "#1A5276" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.16892, -8.716738] },
+      "properties": { "name": "Sushi Tei", "link": "https://maps.google.com/?cid=16223341617512536837", "category": "Diner", "popupContent": "Sushi Tei", "color": "#1A5276" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.262204, -8.703074] },
+      "properties": { "name": "Pescado", "link": "https://maps.google.com/?cid=15125627680243295935", "category": "Diner", "popupContent": "Pescado", "color": "#1A5276" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.247601, -8.704529] },
+      "properties": { "name": "Barbarossa", "link": "https://maps.google.com/?cid=5934244851705196582", "category": "Diner", "popupContent": "Barbarossa", "color": "#1A5276" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.164726, -8.66993] },
+      "properties": { "name": "Aqua", "link": "https://maps.google.com/?cid=3762019857538421904", "category": "Diner", "popupContent": "Aqua", "color": "#1A5276" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.177824, -8.768744] },
+      "properties": { "name": "Gourmet Garage", "link": "https://maps.google.com/?cid=13389443199975577900", "category": "Diner", "popupContent": "Gourmet Garage", "color": "#1A5276" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.156771, -8.674088] },
+      "properties": {
+        "name": "The Butcher Steak house",
+        "link": "https://maps.google.com/?cid=10476243733377599058",
+        "category": "Diner",
+        "popupContent": "The Butcher Steak house",
+        "color": "#1A5276"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.253, -8.693832] },
+      "properties": { "name": "Paris'i", "link": "https://maps.google.com/?cid=12459049168709780673", "category": "Diner", "popupContent": "Paris'i", "color": "#1A5276" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [101.615458, 3.023139] },
+      "properties": { "name": "Bumbu Bali", "link": "https://maps.google.com/?cid=7879672986031507342", "category": "Diner", "popupContent": "Bumbu Bali", "color": "#1A5276" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.670833, -8.345] },
+      "properties": { "name": "Taman Bebek", "link": "https://maps.google.com/?cid=3248346681965095782", "category": "Diner", "popupContent": "Taman Bebek", "color": "#1A5276" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.26069, -8.704743] },
+      "properties": { "name": "Massimo", "link": "https://maps.google.com/?cid=7866022212850565545", "category": "Diner", "popupContent": "Massimo", "color": "#1A5276" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.260965, -8.703172] },
+      "properties": { "name": "Friend Sip", "link": "https://maps.google.com/?cid=17037152844322788166", "category": "Diner", "popupContent": "Friend Sip", "color": "#1A5276" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.277644, -8.493886] },
+      "properties": { "name": "Ap\u00e9ritif", "link": "https://maps.google.com/?cid=10502934725399882672", "category": "Chic", "popupContent": "Ap\u00e9ritif", "color": "red" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.161761, -8.782856] },
+      "properties": { "name": "Sundara", "link": "https://maps.google.com/?cid=11967921872987252961", "category": "Chic", "popupContent": "Sundara", "color": "red" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.217202, -8.829594] },
+      "properties": { "name": "Koral Aquarium", "link": "https://maps.google.com/?cid=2848616579364205916", "category": "Chic", "popupContent": "Koral Aquarium", "color": "red" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.263562, -8.510175] },
+      "properties": { "name": "Locavore", "link": "https://maps.google.com/?cid=17188673455088197598", "category": "Chic", "popupContent": "Locavore", "color": "red" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.277644, -8.493886] },
+      "properties": { "name": "Ap\u00e9ritif", "link": "https://maps.google.com/?cid=10502934725399882672", "category": "Chic", "popupContent": "Ap\u00e9ritif", "color": "red" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.161761, -8.782856] },
+      "properties": { "name": "Sundara", "link": "https://maps.google.com/?cid=11967921872987252961", "category": "Chic", "popupContent": "Sundara", "color": "red" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.217202, -8.829594] },
+      "properties": { "name": "Koral Aquarium", "link": "https://maps.google.com/?cid=2848616579364205916", "category": "Chic", "popupContent": "Koral Aquarium", "color": "red" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.263562, -8.510175] },
+      "properties": { "name": "Locavore", "link": "https://maps.google.com/?cid=17188673455088197598", "category": "Chic", "popupContent": "Locavore", "color": "red" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.168807, -8.716948] },
+      "properties": { "name": "Beach walk", "link": "https://maps.google.com/?cid=2685757038776770022", "category": "Shopping", "popupContent": "Beach walk", "color": "#F4ABC4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.168159, -8.729149] },
+      "properties": { "name": "Discovery mall", "link": "https://maps.google.com/?cid=10359681035013678025", "category": "Shopping", "popupContent": "Discovery mall", "color": "#F4ABC4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.184339, -8.723224] },
+      "properties": { "name": "Galleria", "link": "https://maps.google.com/?cid=1611733989644437369", "category": "Shopping", "popupContent": "Galleria", "color": "#F4ABC4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.182444, -8.723051] },
+      "properties": { "name": "Galleria", "link": "https://maps.google.com/?cid=17863691727681376812", "category": "Shopping", "popupContent": "Galleria", "color": "#F4ABC4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.156783, -8.683647] },
+      "properties": { "name": "Seminyak square", "link": "https://maps.google.com/?cid=15663715449789061609", "category": "Shopping", "popupContent": "Seminyak square", "color": "#F4ABC4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.260977, -8.512417] },
+      "properties": {
+        "name": "Monkey Forest street",
+        "link": "https://maps.google.com/?q=Jl.+Monkey+Forest,+Ubud,+Kecamatan+Ubud,+Kabupaten+Gianyar,+Bali+80571,+Indonesia&ftid=0x2dd23d6cb9184fed:0x7a2abb436e8966c0",
+        "category": "Shopping",
+        "popupContent": "Monkey Forest street",
+        "color": "#F4ABC4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.271218, -8.525255] },
+      "properties": { "name": "Pondok Padi Design", "link": "https://maps.google.com/?cid=15455502578419977504", "category": "Shopping", "popupContent": "Pondok Padi Design", "color": "#F4ABC4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.266952, -8.50934] },
+      "properties": { "name": "Adriana chocolate", "link": "https://maps.google.com/?cid=10554667822809910828", "category": "Shopping", "popupContent": "Adriana chocolate", "color": "#F4ABC4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.158783, -8.684144] },
+      "properties": {
+        "name": "Jalan Kayu Ayu",
+        "link": "https://maps.google.com/?q=Jl.+Kayu+Aya,+Kabupaten+Badung,+Bali,+Indonesia&ftid=0x2dd247176705ac93:0x8beb0b1fdccca1db",
+        "category": "Shopping",
+        "popupContent": "Jalan Kayu Ayu",
+        "color": "#F4ABC4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.174431, -8.717429] },
+      "properties": {
+        "name": "Jalan Legian",
+        "link": "https://maps.google.com/?q=Jl.+Raya+Legian,+Kec.+Kuta,+Kabupaten+Badung,+Bali+80361,+Indonesia&ftid=0x2dd246c14f3c0c09:0x66b261d508b207ac",
+        "category": "Shopping",
+        "popupContent": "Jalan Legian",
+        "color": "#F4ABC4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.156589, -8.676434] },
+      "properties": {
+        "name": "Jalan Petitenget",
+        "link": "https://maps.google.com/?q=Jl.+Petitenget,+Kerobokan+Kelod,+Kec.+Kuta+Utara,+Kabupaten+Badung,+Bali,+Indonesia&ftid=0x2dd2470e231eaf11:0x1ccfabf78403837a",
+        "category": "Shopping",
+        "popupContent": "Jalan Petitenget",
+        "color": "#F4ABC4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.162849, -8.67183] },
+      "properties": {
+        "name": "Jalan Petitenget",
+        "link": "https://maps.google.com/?q=Jl.+Petitenget,+Kerobokan+Kelod,+Kec.+Kuta+Utara,+Kabupaten+Badung,+Bali+80361,+Indonesia&ftid=0x2dd2476b6e001ee1:0x380687a112629982",
+        "category": "Shopping",
+        "popupContent": "Jalan Petitenget",
+        "color": "#F4ABC4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.263296, -8.697446] },
+      "properties": {
+        "name": "Jalan Tamblingan",
+        "link": "https://maps.google.com/?q=Jl.+Danau+Tamblingan,+Sanur,+Denpasar+Selatan,+Kota+Denpasar,+Bali,+Indonesia&ftid=0x2dd241c8ffa56021:0x966b54a6fee0f355",
+        "category": "Shopping",
+        "popupContent": "Jalan Tamblingan",
+        "color": "#F4ABC4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.170783, -8.784775] },
+      "properties": { "name": "Jenggala Ceramique", "link": "https://maps.google.com/?cid=4836191794379138037", "category": "Shopping", "popupContent": "Jenggala Ceramique", "color": "#F4ABC4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.183331, -8.70667] },
+      "properties": { "name": "Jenggala Ceramique", "link": "https://maps.google.com/?cid=3169482532191653751", "category": "Shopping", "popupContent": "Jenggala Ceramique", "color": "#F4ABC4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.282606, -8.596531] },
+      "properties": { "name": "Pasar Seni", "link": "https://maps.google.com/?cid=10812773263492791868", "category": "Shopping", "popupContent": "Pasar Seni", "color": "#F4ABC4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.282606, -8.596531] },
+      "properties": { "name": "Sukawati Art market", "link": "https://maps.google.com/?cid=10812773263492791868", "category": "Shopping", "popupContent": "Sukawati Art market", "color": "#F4ABC4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.168807, -8.716948] },
+      "properties": { "name": "Beach walk", "link": "https://maps.google.com/?cid=2685757038776770022", "category": "Shopping", "popupContent": "Beach walk", "color": "#F4ABC4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.168159, -8.729149] },
+      "properties": { "name": "Discovery mall", "link": "https://maps.google.com/?cid=10359681035013678025", "category": "Shopping", "popupContent": "Discovery mall", "color": "#F4ABC4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.184339, -8.723224] },
+      "properties": { "name": "Galleria", "link": "https://maps.google.com/?cid=1611733989644437369", "category": "Shopping", "popupContent": "Galleria", "color": "#F4ABC4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.182444, -8.723051] },
+      "properties": { "name": "Galleria", "link": "https://maps.google.com/?cid=17863691727681376812", "category": "Shopping", "popupContent": "Galleria", "color": "#F4ABC4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.156783, -8.683647] },
+      "properties": { "name": "Seminyak square", "link": "https://maps.google.com/?cid=15663715449789061609", "category": "Shopping", "popupContent": "Seminyak square", "color": "#F4ABC4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.260977, -8.512417] },
+      "properties": {
+        "name": "Monkey Forest street",
+        "link": "https://maps.google.com/?q=Jl.+Monkey+Forest,+Ubud,+Kecamatan+Ubud,+Kabupaten+Gianyar,+Bali+80571,+Indonesia&ftid=0x2dd23d6cb9184fed:0x7a2abb436e8966c0",
+        "category": "Shopping",
+        "popupContent": "Monkey Forest street",
+        "color": "#F4ABC4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.271218, -8.525255] },
+      "properties": { "name": "Pondok Padi Design", "link": "https://maps.google.com/?cid=15455502578419977504", "category": "Shopping", "popupContent": "Pondok Padi Design", "color": "#F4ABC4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.266952, -8.50934] },
+      "properties": { "name": "Adriana chocolate", "link": "https://maps.google.com/?cid=10554667822809910828", "category": "Shopping", "popupContent": "Adriana chocolate", "color": "#F4ABC4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.158783, -8.684144] },
+      "properties": {
+        "name": "Jalan Kayu Ayu",
+        "link": "https://maps.google.com/?q=Jl.+Kayu+Aya,+Kabupaten+Badung,+Bali,+Indonesia&ftid=0x2dd247176705ac93:0x8beb0b1fdccca1db",
+        "category": "Shopping",
+        "popupContent": "Jalan Kayu Ayu",
+        "color": "#F4ABC4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.174431, -8.717429] },
+      "properties": {
+        "name": "Jalan Legian",
+        "link": "https://maps.google.com/?q=Jl.+Raya+Legian,+Kec.+Kuta,+Kabupaten+Badung,+Bali+80361,+Indonesia&ftid=0x2dd246c14f3c0c09:0x66b261d508b207ac",
+        "category": "Shopping",
+        "popupContent": "Jalan Legian",
+        "color": "#F4ABC4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.156589, -8.676434] },
+      "properties": {
+        "name": "Jalan Petitenget",
+        "link": "https://maps.google.com/?q=Jl.+Petitenget,+Kerobokan+Kelod,+Kec.+Kuta+Utara,+Kabupaten+Badung,+Bali,+Indonesia&ftid=0x2dd2470e231eaf11:0x1ccfabf78403837a",
+        "category": "Shopping",
+        "popupContent": "Jalan Petitenget",
+        "color": "#F4ABC4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.162849, -8.67183] },
+      "properties": {
+        "name": "Jalan Petitenget",
+        "link": "https://maps.google.com/?q=Jl.+Petitenget,+Kerobokan+Kelod,+Kec.+Kuta+Utara,+Kabupaten+Badung,+Bali+80361,+Indonesia&ftid=0x2dd2476b6e001ee1:0x380687a112629982",
+        "category": "Shopping",
+        "popupContent": "Jalan Petitenget",
+        "color": "#F4ABC4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.263296, -8.697446] },
+      "properties": {
+        "name": "Jalan Tamblingan",
+        "link": "https://maps.google.com/?q=Jl.+Danau+Tamblingan,+Sanur,+Denpasar+Selatan,+Kota+Denpasar,+Bali,+Indonesia&ftid=0x2dd241c8ffa56021:0x966b54a6fee0f355",
+        "category": "Shopping",
+        "popupContent": "Jalan Tamblingan",
+        "color": "#F4ABC4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.170783, -8.784775] },
+      "properties": { "name": "Jenggala Ceramique", "link": "https://maps.google.com/?cid=4836191794379138037", "category": "Shopping", "popupContent": "Jenggala Ceramique", "color": "#F4ABC4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.183331, -8.70667] },
+      "properties": { "name": "Jenggala Ceramique", "link": "https://maps.google.com/?cid=3169482532191653751", "category": "Shopping", "popupContent": "Jenggala Ceramique", "color": "#F4ABC4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.282606, -8.596531] },
+      "properties": { "name": "Pasar Seni", "link": "https://maps.google.com/?cid=10812773263492791868", "category": "Shopping", "popupContent": "Pasar Seni", "color": "#F4ABC4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.282606, -8.596531] },
+      "properties": { "name": "Sukawati Art market", "link": "https://maps.google.com/?cid=10812773263492791868", "category": "Shopping", "popupContent": "Sukawati Art market", "color": "#F4ABC4" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.256092, -8.706209] },
+      "properties": { "name": "l'Atelier", "link": "https://maps.google.com/?cid=17967079311503537854", "category": "Coiffeur/Massage", "popupContent": "l'Atelier", "color": "yellow" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.263305, -8.697163] },
+      "properties": { "name": "Cosmo", "link": "https://maps.google.com/?cid=15253356653650415537", "category": "Coiffeur/Massage", "popupContent": "Cosmo", "color": "yellow" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.259499, -8.704751] },
+      "properties": { "name": "Glo", "link": "https://maps.google.com/?cid=247327617230759295", "category": "Coiffeur/Massage", "popupContent": "Glo", "color": "yellow" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.263384, -8.687853] },
+      "properties": { "name": "the Nest", "link": "https://maps.google.com/?cid=13820180420937577459", "category": "Coiffeur/Massage", "popupContent": "the Nest", "color": "yellow" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.256092, -8.706209] },
+      "properties": { "name": "l'Atelier", "link": "https://maps.google.com/?cid=17967079311503537854", "category": "Coiffeur/Massage", "popupContent": "l'Atelier", "color": "yellow" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.263305, -8.697163] },
+      "properties": { "name": "Cosmo", "link": "https://maps.google.com/?cid=15253356653650415537", "category": "Coiffeur/Massage", "popupContent": "Cosmo", "color": "yellow" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.259499, -8.704751] },
+      "properties": { "name": "Glo", "link": "https://maps.google.com/?cid=247327617230759295", "category": "Coiffeur/Massage", "popupContent": "Glo", "color": "yellow" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.263384, -8.687853] },
+      "properties": { "name": "the Nest", "link": "https://maps.google.com/?cid=13820180420937577459", "category": "Coiffeur/Massage", "popupContent": "the Nest", "color": "yellow" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.16317, -8.848294] },
+      "properties": { "name": "Melasti", "link": "https://maps.google.com/?cid=18076135188654000130", "category": "Plage", "popupContent": "Melasti", "color": "green" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.17103, -8.848671] },
+      "properties": { "name": "Green Bowl", "link": "https://maps.google.com/?cid=31906383119477838", "category": "Plage", "popupContent": "Green Bowl", "color": "green" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.221965, -8.762494] },
+      "properties": { "name": "Binggi", "link": "https://maps.google.com/?cid=17854113441553758414", "category": "Plage", "popupContent": "Binggi", "color": "green" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.135935, -8.663778] },
+      "properties": { "name": "Berawa", "link": "https://maps.google.com/?cid=13585914515664285368", "category": "Plage", "popupContent": "Berawa", "color": "green" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.16317, -8.848294] },
+      "properties": { "name": "Melasti", "link": "https://maps.google.com/?cid=18076135188654000130", "category": "Plage", "popupContent": "Melasti", "color": "green" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.17103, -8.848671] },
+      "properties": { "name": "Green Bowl", "link": "https://maps.google.com/?cid=31906383119477838", "category": "Plage", "popupContent": "Green Bowl", "color": "green" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.221965, -8.762494] },
+      "properties": { "name": "Binggi", "link": "https://maps.google.com/?cid=17854113441553758414", "category": "Plage", "popupContent": "Binggi", "color": "green" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.135935, -8.663778] },
+      "properties": { "name": "Berawa", "link": "https://maps.google.com/?cid=13585914515664285368", "category": "Plage", "popupContent": "Berawa", "color": "green" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.408195, -8.258816] },
+      "properties": {
+        "name": "Lac Kintamani",
+        "link": "https://maps.google.com/?q=Danau+Batur&ftid=0x2dd1f680e7f40cad:0x605760d5a99c0414",
+        "category": "Curiosit\u00e9",
+        "popupContent": "Lac Kintamani",
+        "color": "#0E6655"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.054678, -8.266627] },
+      "properties": {
+        "name": "Munduk",
+        "link": "https://maps.google.com/?q=Munduk,+Banjar,+Buleleng+Regency,+Bali,+Indonesia&ftid=0x2dd186110077a85f:0x5030bfbca830680",
+        "category": "Curiosit\u00e9",
+        "popupContent": "Munduk",
+        "color": "#0E6655"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.507058, -8.343311] },
+      "properties": { "name": "Mont Agung", "link": "https://maps.google.com/?cid=12094366688638904237", "category": "Curiosit\u00e9", "popupContent": "Mont Agung", "color": "#0E6655" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.377494, -8.24013] },
+      "properties": { "name": "Mont Batur", "link": "https://maps.google.com/?cid=15240257759653294260", "category": "Curiosit\u00e9", "popupContent": "Mont Batur", "color": "#0E6655" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.131372, -8.37031] },
+      "properties": {
+        "name": "Jatiwulih rizi\u00e8res",
+        "link": "https://maps.google.com/?cid=3391077890616886170",
+        "category": "Curiosit\u00e9",
+        "popupContent": "Jatiwulih rizi\u00e8res",
+        "color": "#0E6655"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [114.515, -8.098333] },
+      "properties": {
+        "name": "Menjangan Island",
+        "link": "https://maps.google.com/?q=Menjangan+Island&ftid=0x2dd141d1ab865ded:0x5e518b99fc683bc9",
+        "category": "Curiosit\u00e9",
+        "popupContent": "Menjangan Island",
+        "color": "#0E6655"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.25828, -8.505069] },
+      "properties": { "name": "Danse kecak", "link": "https://maps.google.com/?cid=14181007028410802598", "category": "Curiosit\u00e9", "popupContent": "Danse kecak", "color": "#0E6655" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [116.056163, -8.351844] },
+      "properties": {
+        "name": "Gili Islands",
+        "link": "https://maps.google.com/?q=Gili+Islands&ftid=0x2d96c75cab17f33d:0x3fdcdcd0727d433e",
+        "category": "Curiosit\u00e9",
+        "popupContent": "Gili Islands",
+        "color": "#0E6655"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [119.441148, -8.585046] },
+      "properties": {
+        "name": "Komodo",
+        "link": "https://maps.google.com/?q=Komodo&ftid=0x2db4545ba8b2bbbb:0x62b9b2c3feba412",
+        "category": "Curiosit\u00e9",
+        "popupContent": "Komodo",
+        "color": "#0E6655"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.408195, -8.258816] },
+      "properties": {
+        "name": "Lac Kintamani",
+        "link": "https://maps.google.com/?q=Danau+Batur&ftid=0x2dd1f680e7f40cad:0x605760d5a99c0414",
+        "category": "Curiosit\u00e9",
+        "popupContent": "Lac Kintamani",
+        "color": "#0E6655"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.054678, -8.266627] },
+      "properties": {
+        "name": "Munduk",
+        "link": "https://maps.google.com/?q=Munduk,+Banjar,+Buleleng+Regency,+Bali,+Indonesia&ftid=0x2dd186110077a85f:0x5030bfbca830680",
+        "category": "Curiosit\u00e9",
+        "popupContent": "Munduk",
+        "color": "#0E6655"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.507058, -8.343311] },
+      "properties": { "name": "Mont Agung", "link": "https://maps.google.com/?cid=12094366688638904237", "category": "Curiosit\u00e9", "popupContent": "Mont Agung", "color": "#0E6655" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.377494, -8.24013] },
+      "properties": { "name": "Mont Batur", "link": "https://maps.google.com/?cid=15240257759653294260", "category": "Curiosit\u00e9", "popupContent": "Mont Batur", "color": "#0E6655" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.131372, -8.37031] },
+      "properties": {
+        "name": "Jatiwulih rizi\u00e8res",
+        "link": "https://maps.google.com/?cid=3391077890616886170",
+        "category": "Curiosit\u00e9",
+        "popupContent": "Jatiwulih rizi\u00e8res",
+        "color": "#0E6655"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [114.515, -8.098333] },
+      "properties": {
+        "name": "Menjangan Island",
+        "link": "https://maps.google.com/?q=Menjangan+Island&ftid=0x2dd141d1ab865ded:0x5e518b99fc683bc9",
+        "category": "Curiosit\u00e9",
+        "popupContent": "Menjangan Island",
+        "color": "#0E6655"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.25828, -8.505069] },
+      "properties": { "name": "Danse kecak", "link": "https://maps.google.com/?cid=14181007028410802598", "category": "Curiosit\u00e9", "popupContent": "Danse kecak", "color": "#0E6655" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [116.056163, -8.351844] },
+      "properties": {
+        "name": "Gili Islands",
+        "link": "https://maps.google.com/?q=Gili+Islands&ftid=0x2d96c75cab17f33d:0x3fdcdcd0727d433e",
+        "category": "Curiosit\u00e9",
+        "popupContent": "Gili Islands",
+        "color": "#0E6655"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [119.441148, -8.585046] },
+      "properties": {
+        "name": "Komodo",
+        "link": "https://maps.google.com/?q=Komodo&ftid=0x2db4545ba8b2bbbb:0x62b9b2c3feba412",
+        "category": "Curiosit\u00e9",
+        "popupContent": "Komodo",
+        "color": "#0E6655"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.159582, -8.784466] },
+      "properties": { "name": "4 seasons Jimbaran", "link": "https://maps.google.com/?cid=16382609364309970082", "category": "Hotel", "popupContent": "4 seasons Jimbaran", "color": "#F1C40F" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.243786, -8.502061] },
+      "properties": { "name": "4 seasons Ubud", "link": "https://maps.google.com/?cid=9202544246217537775", "category": "Hotel", "popupContent": "4 seasons Ubud", "color": "#F1C40F" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.27454, -8.383468] },
+      "properties": { "name": "Padma Ubud", "link": "https://maps.google.com/?cid=7847074353409935796", "category": "Hotel", "popupContent": "Padma Ubud", "color": "#F1C40F" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.215578, -8.828552] },
+      "properties": { "name": "Kempinski", "link": "https://maps.google.com/?cid=5218857665333554588", "category": "Hotel", "popupContent": "Kempinski", "color": "#F1C40F" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.233221, -8.803671] },
+      "properties": { "name": "Grand Hyatt", "link": "https://maps.google.com/?cid=4413825900116371476", "category": "Hotel", "popupContent": "Grand Hyatt", "color": "#F1C40F" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.16883, -8.772778] },
+      "properties": { "name": "Belmond", "link": "https://maps.google.com/?cid=10506732946343525465", "category": "Hotel", "popupContent": "Belmond", "color": "#F1C40F" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.226477, -8.812827] },
+      "properties": { "name": "St R\u00e9gis", "link": "https://maps.google.com/?cid=4189511058657882657", "category": "Hotel", "popupContent": "St R\u00e9gis", "color": "#F1C40F" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.054804, -8.577043] },
+      "properties": { "name": "Soori Bali", "link": "https://maps.google.com/?cid=5814933941818286546", "category": "Hotel", "popupContent": "Soori Bali", "color": "#F1C40F" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [114.552801, -8.132881] },
+      "properties": {
+        "name": "Menjangan Retreat & Spa",
+        "link": "https://maps.google.com/?cid=4118114061994752855",
+        "category": "Hotel",
+        "popupContent": "Menjangan Retreat & Spa",
+        "color": "#F1C40F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [114.830444, -8.434465] },
+      "properties": { "name": "Kelapa Retreat & Spa", "link": "https://maps.google.com/?cid=16946100612861983335", "category": "Hotel", "popupContent": "Kelapa Retreat & Spa", "color": "#F1C40F" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.573661, -8.512358] },
+      "properties": { "name": "Villa Kaniksa", "link": "https://maps.google.com/?cid=5211277416768453228", "category": "Hotel", "popupContent": "Villa Kaniksa", "color": "#F1C40F" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.626685, -8.454279] },
+      "properties": { "name": "Bali Droom Villa", "link": "https://maps.google.com/?cid=4984320596372831310", "category": "Hotel", "popupContent": "Bali Droom Villa", "color": "#F1C40F" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.159582, -8.784466] },
+      "properties": { "name": "4 seasons Jimbaran", "link": "https://maps.google.com/?cid=16382609364309970082", "category": "Hotel", "popupContent": "4 seasons Jimbaran", "color": "#F1C40F" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.243786, -8.502061] },
+      "properties": { "name": "4 seasons Ubud", "link": "https://maps.google.com/?cid=9202544246217537775", "category": "Hotel", "popupContent": "4 seasons Ubud", "color": "#F1C40F" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.27454, -8.383468] },
+      "properties": { "name": "Padma Ubud", "link": "https://maps.google.com/?cid=7847074353409935796", "category": "Hotel", "popupContent": "Padma Ubud", "color": "#F1C40F" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.215578, -8.828552] },
+      "properties": { "name": "Kempinski", "link": "https://maps.google.com/?cid=5218857665333554588", "category": "Hotel", "popupContent": "Kempinski", "color": "#F1C40F" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.233221, -8.803671] },
+      "properties": { "name": "Grand Hyatt", "link": "https://maps.google.com/?cid=4413825900116371476", "category": "Hotel", "popupContent": "Grand Hyatt", "color": "#F1C40F" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.16883, -8.772778] },
+      "properties": { "name": "Belmond", "link": "https://maps.google.com/?cid=10506732946343525465", "category": "Hotel", "popupContent": "Belmond", "color": "#F1C40F" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.226477, -8.812827] },
+      "properties": { "name": "St R\u00e9gis", "link": "https://maps.google.com/?cid=4189511058657882657", "category": "Hotel", "popupContent": "St R\u00e9gis", "color": "#F1C40F" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.054804, -8.577043] },
+      "properties": { "name": "Soori Bali", "link": "https://maps.google.com/?cid=5814933941818286546", "category": "Hotel", "popupContent": "Soori Bali", "color": "#F1C40F" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [114.552801, -8.132881] },
+      "properties": {
+        "name": "Menjangan Retreat & Spa",
+        "link": "https://maps.google.com/?cid=4118114061994752855",
+        "category": "Hotel",
+        "popupContent": "Menjangan Retreat & Spa",
+        "color": "#F1C40F"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [114.830444, -8.434465] },
+      "properties": { "name": "Kelapa Retreat & Spa", "link": "https://maps.google.com/?cid=16946100612861983335", "category": "Hotel", "popupContent": "Kelapa Retreat & Spa", "color": "#F1C40F" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.573661, -8.512358] },
+      "properties": { "name": "Villa Kaniksa", "link": "https://maps.google.com/?cid=5211277416768453228", "category": "Hotel", "popupContent": "Villa Kaniksa", "color": "#F1C40F" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.626685, -8.454279] },
+      "properties": { "name": "Bali Droom Villa", "link": "https://maps.google.com/?cid=4984320596372831310", "category": "Hotel", "popupContent": "Bali Droom Villa", "color": "#F1C40F" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.15292, -8.847514] },
+      "properties": { "name": "Karma Beach Club", "link": "https://maps.google.com/?cid=5313080691325687487", "category": "Beach Club/Bar", "popupContent": "Karma Beach Club", "color": "#8E44AD" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.12502, -8.654218] },
+      "properties": { "name": "La Brisa", "link": "https://maps.google.com/?cid=9696986360290393129", "category": "Beach Club/Bar", "popupContent": "La Brisa", "color": "#8E44AD" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.17569, -8.70279] },
+      "properties": { "name": "Delta KTV", "link": "https://maps.google.com/?cid=3597771953581242734", "category": "Beach Club/Bar", "popupContent": "Delta KTV", "color": "#8E44AD" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.138471, -8.784239] },
+      "properties": { "name": "the Rock Bar", "link": "https://maps.google.com/?cid=16904231133254439631", "category": "Beach Club/Bar", "popupContent": "the Rock Bar", "color": "#8E44AD" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.261755, -8.510834] },
+      "properties": { "name": "CP lounge", "link": "https://maps.google.com/?cid=13085414037160663444", "category": "Beach Club/Bar", "popupContent": "CP lounge", "color": "#8E44AD" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.273326, -8.613118] },
+      "properties": { "name": "Q Bar", "link": "https://maps.google.com/?cid=4395128962532531076", "category": "Beach Club/Bar", "popupContent": "Q Bar", "color": "#8E44AD" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.164211, -8.701268] },
+      "properties": { "name": "the Beach House", "link": "https://maps.google.com/?cid=13337396443905945800", "category": "Beach Club/Bar", "popupContent": "the Beach House", "color": "#8E44AD" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.15292, -8.847514] },
+      "properties": { "name": "Karma Beach Club", "link": "https://maps.google.com/?cid=5313080691325687487", "category": "Beach Club/Bar", "popupContent": "Karma Beach Club", "color": "#8E44AD" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.12502, -8.654218] },
+      "properties": { "name": "La Brisa", "link": "https://maps.google.com/?cid=9696986360290393129", "category": "Beach Club/Bar", "popupContent": "La Brisa", "color": "#8E44AD" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.17569, -8.70279] },
+      "properties": { "name": "Delta KTV", "link": "https://maps.google.com/?cid=3597771953581242734", "category": "Beach Club/Bar", "popupContent": "Delta KTV", "color": "#8E44AD" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.138471, -8.784239] },
+      "properties": { "name": "the Rock Bar", "link": "https://maps.google.com/?cid=16904231133254439631", "category": "Beach Club/Bar", "popupContent": "the Rock Bar", "color": "#8E44AD" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.261755, -8.510834] },
+      "properties": { "name": "CP lounge", "link": "https://maps.google.com/?cid=13085414037160663444", "category": "Beach Club/Bar", "popupContent": "CP lounge", "color": "#8E44AD" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.273326, -8.613118] },
+      "properties": { "name": "Q Bar", "link": "https://maps.google.com/?cid=4395128962532531076", "category": "Beach Club/Bar", "popupContent": "Q Bar", "color": "#8E44AD" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.164211, -8.701268] },
+      "properties": { "name": "the Beach House", "link": "https://maps.google.com/?cid=13337396443905945800", "category": "Beach Club/Bar", "popupContent": "the Beach House", "color": "#8E44AD" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.174821, -8.71841] },
+      "properties": { "name": "Bounty", "link": "https://maps.google.com/?cid=1991352780151516879", "category": "Discoth\u00e8que (22h)", "popupContent": "Bounty", "color": "gray" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.17444, -8.717874] },
+      "properties": { "name": "Engine Room", "link": "https://maps.google.com/?cid=3768413462913702244", "category": "Discoth\u00e8que (22h)", "popupContent": "Engine Room", "color": "gray" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.174621, -8.719121] },
+      "properties": { "name": "LXXY Bali", "link": "https://maps.google.com/?cid=3006903346362900896", "category": "Discoth\u00e8que (22h)", "popupContent": "LXXY Bali", "color": "gray" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.174554, -8.717781] },
+      "properties": { "name": "4th Floor", "link": "https://maps.google.com/?cid=13833523007931471083", "category": "Discoth\u00e8que (22h)", "popupContent": "4th Floor", "color": "gray" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.168856, -8.716779] },
+      "properties": { "name": "The Velvet", "link": "https://maps.google.com/?cid=10669657439170081007", "category": "Discoth\u00e8que (22h)", "popupContent": "The Velvet", "color": "gray" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.153855, -8.677284] },
+      "properties": {
+        "name": "ShiShi Night Club",
+        "link": "https://maps.google.com/?cid=3902006906445873914",
+        "category": "Discoth\u00e8que (22h)",
+        "popupContent": "ShiShi Night Club",
+        "color": "gray"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.174821, -8.71841] },
+      "properties": { "name": "Bounty", "link": "https://maps.google.com/?cid=1991352780151516879", "category": "Discoth\u00e8que (22h)", "popupContent": "Bounty", "color": "gray" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.17444, -8.717874] },
+      "properties": { "name": "Engine Room", "link": "https://maps.google.com/?cid=3768413462913702244", "category": "Discoth\u00e8que (22h)", "popupContent": "Engine Room", "color": "gray" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.174621, -8.719121] },
+      "properties": { "name": "LXXY Bali", "link": "https://maps.google.com/?cid=3006903346362900896", "category": "Discoth\u00e8que (22h)", "popupContent": "LXXY Bali", "color": "gray" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.174554, -8.717781] },
+      "properties": { "name": "4th Floor", "link": "https://maps.google.com/?cid=13833523007931471083", "category": "Discoth\u00e8que (22h)", "popupContent": "4th Floor", "color": "gray" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.168856, -8.716779] },
+      "properties": { "name": "The Velvet", "link": "https://maps.google.com/?cid=10669657439170081007", "category": "Discoth\u00e8que (22h)", "popupContent": "The Velvet", "color": "gray" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.153855, -8.677284] },
+      "properties": {
+        "name": "ShiShi Night Club",
+        "link": "https://maps.google.com/?cid=3902006906445873914",
+        "category": "Discoth\u00e8que (22h)",
+        "popupContent": "ShiShi Night Club",
+        "color": "gray"
+      }
+    }
   ]
 }
